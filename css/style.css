@@ -1,6 +1,15 @@
 .navbar{
     border: none;
 }
+.navbar-default .navbar-toggle:focus{
+    background-color: black;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: black;
+}
+.navbar-default .navbar-toggle{
+    border: none;
+}
 .noir{
     background-color: black;
     padding: 10px;
@@ -31,14 +40,15 @@
     border-radius: 50%;
 }
 .fa-envelope-o{
+    margin-left: 15px;
    margin-top: 18px;
     color: #71818B;
 }
 .loremwiki {
     height: 400px;
     background-image: url("../images/header-bg.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     color: white;
     text-align: center;
     margin-top: -20px;
@@ -48,6 +58,7 @@
     background-color: #F2F2F2;
 }
 .hot {
+    font-size: 20px;
     color: #FE7877;
 }
 .dss .col-md-4 p{
