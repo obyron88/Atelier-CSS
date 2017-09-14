@@ -1,0 +1,112 @@
+.navbar{
+    border: none;
+}
+.noir{
+    background-color: black;
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #71818B;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+}
+.navbar-default .navbar-brand{
+    color: #71818B;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a{
+    background-color: #FE7877;
+    color: white;
+}
+.cercle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #FE7877;
+    border-radius: 50%;
+}
+.fa-envelope-o{
+   margin-top: 18px;
+    color: #71818B;
+}
+.loremwiki {
+    height: 400px;
+    background-image: url("../images/header-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+.dss{
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.hot {
+    color: #FE7877;
+}
+.dss .col-md-4 p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.portfolio {
+    background-color: #E0E0E0;
+    text-align: center;
+}
+.portfolio .col-md-4 img{
+    margin-top: 20px;
+}
+.munter{
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.munter img{
+    width: 100%;
+    margin-top: 80px;
+}
+.jumbotron {
+    padding-bottom: inherit;
+    margin-bottom: inherit;
+}
+.munter p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+}
+.first{
+    width: 900px;
+}
+.clients{
+    background-color: #EBEBEB;
+    text-align: center;
+}
+.rose {
+    text-align: center;
+    background-color: #FE7877;
+    color: white;
+}
+.rose p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+padding-bottom: 20px;
+}
+.twitter {
+    color: white;
+    text-align: center;
+ background-color: #2D2D2D;
+}
+.twitter i{
+    padding: 10px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
